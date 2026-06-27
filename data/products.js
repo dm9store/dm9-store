@@ -239,5 +239,32 @@ const productos = [
     moneda: "Gs",
     imagen: "images/products/control-universal-luo.jpeg",
     descripcion: "Control remoto inalámbrico Air Mouse con teclado integrado, conexión 2.4 GHz y Bluetooth 5.2. Ideal para TV Box, Smart TV, PC y dispositivos Android."
+},
+{
+    id: 26,
+    nombre: "Foco Cámara WiFi 360°",
+    marca: "360°",
+    precio: 80000,
+    moneda: "Gs",
+    imagen: "images/products/foco-camara-360.jpeg",
+    descripcion: "Cámara de seguridad WiFi con diseño de foco LED, visión de 360°, monitoreo remoto desde el celular, detección de movimiento, visión nocturna y audio bidireccional. Ideal para el hogar, oficina o negocio."
+},
+{
+    id: 27,
+    nombre: "Jarra Eléctrica WA-20A",
+    marca: "WAER",
+    precio: 50000,
+    moneda: "Gs",
+    imagen: "images/products/jarra-electrica-waer.jpeg",
+    descripcion: "Jarra eléctrica WAER de 2 litros fabricada en acero inoxidable, con apagado automático y base giratoria. Ideal para preparar agua caliente de forma rápida y segura para café, té o mate."
+},
+{
+    id: 28,
+    nombre: "Estufa Eléctrica MO-QH612",
+    marca: "MOX",
+    precio: 90000,
+    moneda: "Gs",
+    imagen: "images/products/estufa-electrica-mox.jpeg",
+    descripcion: "Estufa eléctrica MOX de cuarzo con dos niveles de potencia (600W/1200W), sistema de protección contra sobrecalentamiento y diseño compacto. Ideal para calentar habitaciones pequeñas de manera eficiente."
 }
 ];

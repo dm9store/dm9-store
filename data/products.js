@@ -194,5 +194,45 @@ const productos = [
     precio: 20000,
     moneda: "Gs",
     imagen: "images/products/car-charger-waer.jpeg"
+},
+{
+    id: 21,
+    nombre: "Mouse Wireless EP-K005",
+    marca: "Ecopower",
+    precio: 50000,
+    imagen: "images/mouse-wireless-ep-k005.jpeg",
+    descripcion: "Mouse inalámbrico Ecopower EP-K005 de diseño ergonómico, conexión estable y respuesta precisa. Ideal para computadoras y notebooks, perfecto para trabajo, estudio y uso diario."
+},
+{
+    id: 22,
+    nombre: "Cámara Espía WiFi A9",
+    marca: "A9",
+    precio: 70000,
+    imagen: "images/camara-espia-a9.jpeg",
+    descripcion: "Mini cámara IP WiFi A9 con grabación HD. Permite monitoreo remoto desde el celular, detección de movimiento y vigilancia discreta para hogar, oficina o negocio."
+},
+{
+    id: 23,
+    nombre: "Smart Bracelet",
+    marca: "China",
+    precio: 50000,
+    imagen: "images/smart-bracelet.jpeg",
+    descripcion: "Pulsera inteligente con monitoreo de actividad física, frecuencia cardíaca, contador de pasos, notificaciones y funciones deportivas. Compatible con Android e iPhone."
+},
+{
+    id: 24,
+    nombre: "Internet TV Box LU-V82",
+    marca: "LUO",
+    precio: 150000,
+    imagen: "images/internet-tv-box-lu-v82.jpeg",
+    descripcion: "TV Box LUO LU-V82 con sistema Android para convertir cualquier televisor en un Smart TV. Compatible con YouTube, Netflix, aplicaciones de streaming y navegación por Internet."
+},
+{
+    id: 25,
+    nombre: "Control Universal Air Mouse LU-i13",
+    marca: "LUO",
+    precio: 80000,
+    imagen: "images/control-universal-lu-i13.jpeg",
+    descripcion: "Control remoto inalámbrico Air Mouse con teclado integrado, conexión 2.4 GHz y Bluetooth 5.2. Ideal para TV Box, Smart TV, PC y dispositivos Android."
 }
 ];

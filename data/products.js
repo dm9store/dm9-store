@@ -201,7 +201,7 @@ const productos = [
     marca: "Ecopower",
     precio: 50000,
     moneda: "Gs",
-    imagen: "data/images/products/mouse-wireless-ep-k005.jpeg",
+    imagen: "images/products/mouse-wireless-ep-k005.jpeg",
     descripcion: "Mouse inalámbrico Ecopower EP-K005 de diseño ergonómico, conexión estable y respuesta precisa. Ideal para computadoras y notebooks, perfecto para trabajo, estudio y uso diario."
 },
 {
@@ -210,7 +210,7 @@ const productos = [
     marca: "A9",
     precio: 70000,
     moneda: "Gs",
-    imagen: "data/images/products/camara-espia-a9.jpeg",
+    imagen: "images/products/camara-espia-a9.jpeg",
     descripcion: "Mini cámara IP WiFi A9 con grabación HD. Permite monitoreo remoto desde el celular, detección de movimiento y vigilancia discreta para hogar, oficina o negocio."
 },
 {
@@ -219,7 +219,7 @@ const productos = [
     marca: "China",
     precio: 50000,
     moneda: "Gs",
-    imagen: "data/images/products/smart-bracelet.jpeg",
+    imagen: "images/products/smart-bracelet.jpeg",
     descripcion: "Pulsera inteligente con monitoreo de actividad física, frecuencia cardíaca, contador de pasos, notificaciones y funciones deportivas. Compatible con Android e iPhone."
 },
 {
@@ -228,7 +228,7 @@ const productos = [
     marca: "LUO",
     precio: 150000,
     moneda: "Gs",
-    imagen: "data/images/products/internet-tv-box-luo.jpeg",
+    imagen: "images/products/internet-tv-box-luo.jpeg",
     descripcion: "TV Box LUO LU-V82 con sistema Android para convertir cualquier televisor en un Smart TV. Compatible con YouTube, Netflix, aplicaciones de streaming y navegación por Internet."
 },
 {
@@ -237,7 +237,7 @@ const productos = [
     marca: "LUO",
     precio: 80000,
     moneda: "Gs",
-    imagen: "data/images/products/control-universal-luo.jpeg",
+    imagen: "images/products/control-universal-luo.jpeg",
     descripcion: "Control remoto inalámbrico Air Mouse con teclado integrado, conexión 2.4 GHz y Bluetooth 5.2. Ideal para TV Box, Smart TV, PC y dispositivos Android."
 }
 ];

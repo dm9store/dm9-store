@@ -266,5 +266,41 @@ const productos = [
     moneda: "Gs",
     imagen: "images/products/estufa-electrica-mox.jpeg",
     descripcion: "Estufa eléctrica MOX de cuarzo con dos niveles de potencia (600W/1200W), sistema de protección contra sobrecalentamiento y diseño compacto. Ideal para calentar habitaciones pequeñas de manera eficiente."
+},
+{
+    id: 29,
+    nombre: "Máquina Corta Pelo WA-2909",
+    marca: "WAER",
+    precio: 100000,
+    moneda: "Gs",
+    imagen: "images/products/maquina-corta-pelo-waer.jpeg",
+    descripcion: "Máquina cortadora de cabello profesional WAER WA-2909 con batería recargable, cuchillas de alta precisión y pantalla digital. Ideal para barbería y uso doméstico."
+},
+{
+    id: 30,
+    nombre: "Máquina Shaver WA-097",
+    marca: "WAER",
+    precio: 150000,
+    moneda: "Gs",
+    imagen: "images/products/maquina-shaver-waer.jpeg",
+    descripcion: "Máquina shaver profesional WAER WA-097 con doble cabezal de afeitado, batería recargable de larga duración y diseño resistente al agua. Perfecta para un acabado suave y preciso."
+},
+{
+    id: 31,
+    nombre: "Tira LED RGB 5M",
+    marca: "China",
+    precio: 50000,
+    moneda: "Gs",
+    imagen: "images/products/tira-led-rgb.jpeg",
+    descripcion: "Tira LED RGB de 5 metros con control remoto, múltiples colores y efectos de iluminación. Ideal para decorar habitaciones, escritorios, salas de entretenimiento y negocios."
+},
+{
+    id: 32,
+    nombre: "Micrófono Inalámbrico YQ10556",
+    marca: "HENGDA",
+    precio: 50000,
+    moneda: "Gs",
+    imagen: "images/products/microfono-inalambrico-hengda.jpeg",
+    descripcion: "Micrófono inalámbrico HENGDA YQ10556 compatible con celulares y otros dispositivos. Ideal para grabaciones, entrevistas, transmisiones en vivo, TikTok y creación de contenido."
 }
 ];

@@ -465,3 +465,108 @@ button:hover{
     background:#20ba5a;
     box-shadow:0 15px 35px rgba(37,211,102,.45);
 }
+/*=========================
+      RESPONSIVE
+=========================*/
+
+@media (max-width:768px){
+
+    /* Menú */
+
+    nav{
+        gap:20px;
+        padding:15px;
+        flex-wrap:wrap;
+    }
+
+    /* Banner */
+
+    .banner{
+        padding:20px 10px;
+    }
+
+    /* Hero */
+
+    .hero{
+        padding:40px 20px;
+    }
+
+    .hero h2{
+        font-size:32px;
+    }
+
+    .hero p{
+        font-size:17px;
+    }
+
+    /* Productos */
+
+    .productos{
+        padding:40px 15px;
+    }
+
+    #contenedor-productos{
+
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap:15px;
+
+    }
+
+    .producto{
+
+        width:100%;
+
+    }
+
+    .producto img{
+
+        height:160px;
+
+    }
+
+    .producto h3{
+
+        font-size:16px;
+
+    }
+
+    .producto p{
+
+        font-size:14px;
+
+    }
+
+    .producto h4{
+
+        font-size:18px;
+
+    }
+
+    .boton-producto{
+
+        width:90%;
+        padding:10px;
+
+    }
+
+    /* Footer */
+
+    .footer-contenido{
+
+        flex-direction:column;
+        text-align:center;
+
+    }
+
+    /* WhatsApp */
+
+    .whatsapp{
+
+        width:60px;
+        height:60px;
+        font-size:32px;
+
+    }
+
+}

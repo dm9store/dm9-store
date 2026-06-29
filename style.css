@@ -288,14 +288,12 @@ button:hover{
     padding:15px 0;
     background:#182235;
 }
-
-.logo-principal{
-    width:50px;
+    .logo-principal{
+    width:150px;
     height:auto;
     display:block;
     margin:0 auto 10px auto;
 }
-
 .header-principal p{
     margin-top:5px;
     color:#d7d7d7;

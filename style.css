@@ -437,3 +437,31 @@ button:hover{
     background:#1ebe5d;
 
 }
+/*=========================
+      BOTÓN WHATSAPP
+=========================*/
+
+.whatsapp{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:70px;
+    height:70px;
+    background:#25D366;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    font-size:40px;
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+    transition:all .3s ease;
+    z-index:9999;
+}
+
+.whatsapp:hover{
+    transform:scale(1.12);
+    background:#20ba5a;
+    box-shadow:0 15px 35px rgba(37,211,102,.45);
+}

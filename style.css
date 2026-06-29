@@ -288,10 +288,10 @@ button:hover{
 }
 
 .logo-principal{
-    width:220px;
-    max-width:90%;
+    width:90px;
+    height:auto;
     display:block;
-    margin:auto;
+    margin:0 auto;
 }
 
 .header-principal p{

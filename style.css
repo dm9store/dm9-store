@@ -390,3 +390,50 @@ button:hover{
     font-size:15px;
 
 }
+/*=========================
+      WHATSAPP
+=========================*/
+
+.whatsapp{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:70px;
+
+    height:70px;
+
+    background:#25D366;
+
+    color:white;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-decoration:none;
+
+    font-size:34px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+    transition:.3s;
+
+    z-index:999;
+
+}
+
+.whatsapp:hover{
+
+    transform:scale(1.12);
+
+    background:#1ebe5d;
+
+}

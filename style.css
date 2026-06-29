@@ -300,3 +300,93 @@ button:hover{
     font-size:16px;
     letter-spacing:1px;
 }
+/*=========================
+        FOOTER
+=========================*/
+
+.footer{
+
+    background:#0b1220;
+    margin-top:80px;
+    padding:60px 10% 30px;
+
+}
+
+.footer-logo{
+
+    text-align:center;
+    margin-bottom:45px;
+
+}
+
+.logo-footer{
+
+    width:180px;
+    margin-bottom:15px;
+
+}
+
+.footer-logo p{
+
+    color:#cfcfcf;
+    font-size:18px;
+
+}
+
+.footer-contenido{
+
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+    flex-wrap:wrap;
+
+}
+
+.footer-columna{
+
+    flex:1;
+    min-width:220px;
+
+}
+
+.footer-columna h3{
+
+    color:#00bfff;
+    margin-bottom:20px;
+
+}
+
+.footer-columna a{
+
+    display:block;
+    color:white;
+    text-decoration:none;
+    margin-bottom:12px;
+    transition:.3s;
+
+}
+
+.footer-columna a:hover{
+
+    color:#00bfff;
+    transform:translateX(6px);
+
+}
+
+.footer-columna p{
+
+    color:#d7d7d7;
+    margin-bottom:10px;
+
+}
+
+.footer-copy{
+
+    margin-top:50px;
+    border-top:1px solid rgba(255,255,255,.1);
+    padding-top:20px;
+    text-align:center;
+    color:#8d8d8d;
+    font-size:15px;
+
+}

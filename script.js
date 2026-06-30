@@ -1,11 +1,15 @@
 const contenedor = document.getElementById("contenedor-productos");
 const buscador = document.getElementById("buscador");
+const botonesCategorias = document.querySelectorAll(".categoria");
 
-function mostrarProductos(lista){
+let categoriaSeleccionada = "Todos";
+let textoBusqueda = "";
+
+function mostrarProductos(listaProductos) {
 
     contenedor.innerHTML = "";
 
-    lista.forEach(producto => {
+    listaProductos.forEach(producto => {
 
         contenedor.innerHTML += `
             <div class="producto">
@@ -24,23 +28,42 @@ function mostrarProductos(lista){
 
             </div>
         `;
+
     });
 
 }
 
-mostrarProductos(productos);
+function filtrarProductos() {
+
+    let resultado = productos;
+
+    if (categoriaSeleccionada !== "Todos") {
+
+        resultado = resultado.filter(producto =>
+            producto.categoria === categoriaSeleccionada
+        );
+
+    }
+
+    if (textoBusqueda !== "") {
+
+        resultado = resultado.filter(producto =>
+            producto.nombre.toLowerCase().includes(textoBusqueda) ||
+            producto.marca.toLowerCase().includes(textoBusqueda)
+        );
+
+    }
+
+    mostrarProductos(resultado);
+
+}
 
 buscador.addEventListener("input", () => {
 
-    const texto = buscador.value.toLowerCase();
+    textoBusqueda = buscador.value.toLowerCase();
 
-    const filtrados = productos.filter(producto =>
-
-        producto.nombre.toLowerCase().includes(texto) ||
-        producto.marca.toLowerCase().includes(texto)
-
-    );
-
-    mostrarProductos(filtrados);
+    filtrarProductos();
 
 });
+
+mostrarProductos(productos);

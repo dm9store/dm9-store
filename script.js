@@ -1,22 +1,46 @@
 const contenedor = document.getElementById("contenedor-productos");
+const buscador = document.getElementById("buscador");
 
-productos.forEach(producto => {
+function mostrarProductos(lista){
 
-    contenedor.innerHTML += `
-        <div class="producto">
+    contenedor.innerHTML = "";
 
-            <img src="${producto.imagen}" alt="${producto.nombre}">
+    lista.forEach(producto => {
 
-            <h3>${producto.nombre}</h3>
+        contenedor.innerHTML += `
+            <div class="producto">
 
-            <p>${producto.marca}</p>
+                <img src="${producto.imagen}" alt="${producto.nombre}">
 
-            <h4>${producto.precio.toLocaleString()} ${producto.moneda}</h4>
+                <h3>${producto.nombre}</h3>
 
-<a href="producto.html?id=${producto.id}" class="boton-producto">
-    Ver producto
-</a>
-        </div>
-    `;
+                <p>${producto.marca}</p>
+
+                <h4>${producto.precio.toLocaleString()} ${producto.moneda}</h4>
+
+                <a href="producto.html?id=${producto.id}" class="boton-producto">
+                    Ver producto
+                </a>
+
+            </div>
+        `;
+    });
+
+}
+
+mostrarProductos(productos);
+
+buscador.addEventListener("input", () => {
+
+    const texto = buscador.value.toLowerCase();
+
+    const filtrados = productos.filter(producto =>
+
+        producto.nombre.toLowerCase().includes(texto) ||
+        producto.marca.toLowerCase().includes(texto)
+
+    );
+
+    mostrarProductos(filtrados);
 
 });

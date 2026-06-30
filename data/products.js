@@ -1,6 +1,6 @@
 const productos = [
     {
-        id: "DM9001",
+        id: 1,
         nombre: "True Wireless Headset",
         marca: "M10",
         categoria: "Audio",
@@ -11,7 +11,7 @@ const productos = [
     }
 ,
 {
-    id: "DM9002",
+    id: 2,
     nombre: "Stereo Headphones",
     marca: "WAER",
     categoria: "Audio",
@@ -22,7 +22,7 @@ const productos = [
 },
 
 {
-    id: "DM9003",
+    id: 3,
     nombre: "Auriculares High Quality",
     marca: "Ecopower",
     categoria: "Audio",
@@ -33,7 +33,7 @@ const productos = [
 },
 
 {
-    id: "DM9004",
+    id: 4,
     nombre: "Ultrapods Max Blanco",
     marca: "Listen To Me",
     categoria: "Audio",
@@ -44,7 +44,7 @@ const productos = [
 },
 
 {
-    id: "DM9005",
+    id: 5,
     nombre: "Ultrapods Max Negro",
     marca: "Listen To Me",
     categoria: "Audio",
@@ -54,7 +54,7 @@ const productos = [
     descripcion: "Auriculares inalámbricos Bluetooth 5.3 color negro."
 },
 {
-    id: "DM9006",
+    id: 6,
     nombre: "Power Bank Smart Charge",
     marca: "Ecopower",
     categoria: "Accesorios",
@@ -65,7 +65,7 @@ const productos = [
 },
 
 {
-    id: "DM9007",
+    id: 7,
     nombre: "Cargador Tipo C",
     marca: "Ecopower",
     categoria: "Cargadores",
@@ -76,7 +76,7 @@ const productos = [
 },
 
 {
-    id: "DM9008",
+    id: 8,
     nombre: "Cargador Micro USB",
     marca: "Ecopower",
     categoria: "Cargadores",
@@ -87,7 +87,7 @@ const productos = [
 },
 
 {
-    id: "DM9009",
+    id: 9,
     nombre: "Cargador iPhone",
     marca: "Ecopower",
     categoria: "Cargadores",
@@ -98,7 +98,7 @@ const productos = [
 },
 
 {
-    id: "DM9010",
+    id: 10,
     nombre: "Cargador Notebook Universal",
     marca: "WAER",
     categoria: "Cargadores",
@@ -108,7 +108,7 @@ const productos = [
     descripcion: "Adaptador universal para notebook con múltiples conectores intercambiables y voltaje ajustable, compatible con diversas marcas."
 },
 {
-    id: "DM9011",
+    id: 11,
     nombre: "Radio Solar FM AM",
     marca: "Ecopower",
     descripcion: "Radio portátil Ecopower con panel solar, bandas FM/AM/SW, conectividad Bluetooth, reproducción por USB y tarjeta TF. Ideal para el hogar, viajes y actividades al aire libre.",
@@ -118,7 +118,7 @@ const productos = [
 },
 
 {
-    id: "DM9012",
+    id: 12,
     nombre: "Parlante Speaker Bluetooth",
     marca: "Ecopower",
     descripcion: "Parlante Bluetooth portátil Ecopower con iluminación LED, batería recargable y reproducción mediante Bluetooth, USB y tarjeta TF. Excelente sonido para música en cualquier lugar.",
@@ -128,7 +128,7 @@ const productos = [
 },
 
 {
-    id: "DM9013",
+    id: 13,
     nombre: "Parlante Wireless",
     marca: "LUO",
     descripcion: "Parlante inalámbrico LUO con conexión Bluetooth, radio FM, entrada USB y tarjeta TF. Compacto, portátil y con luces LED para disfrutar de tu música favorita.",
@@ -138,7 +138,7 @@ const productos = [
 },
 
 {
-    id: "DM9014",
+    id: 14,
     nombre: "Portable Speaker Wireless",
     marca: "Charge 3",
     descripcion: "Parlante portátil inalámbrico con sonido potente, conexión Bluetooth, batería recargable y diseño resistente. Ideal para reuniones, viajes y uso diario.",
@@ -147,7 +147,7 @@ const productos = [
     imagen: "images/products/charge3.jpeg"
 },
 {
-    id: "DM9015",
+    id: 15,
     nombre: "Soporte Celular para Moto",
     marca: "Holder",
     descripcion: "Soporte universal para celular de moto y bicicleta con rotación de 360°, agarre firme y fácil instalación en el manillar.",
@@ -157,7 +157,7 @@ const productos = [
 },
 
 {
-    id: "DM9016",
+    id: 16,
     nombre: "Cargador USB para Moto",
     marca: "Inova",
     descripcion: "Cargador USB para motocicleta Inova con instalación sencilla, ideal para cargar celulares y otros dispositivos durante el viaje.",
@@ -167,7 +167,7 @@ const productos = [
 },
 
 {
-    id: "DM9017",
+    id: 17,
     nombre: "Soporte de Teléfono para Auto",
     marca: "360°",
     descripcion: "Soporte universal para teléfono de automóvil con giro de 360°, ventosa de alta adherencia y compatibilidad con la mayoría de los smartphones.",
@@ -177,7 +177,7 @@ const productos = [
 },
 
 {
-    id: "DM9018",
+    id: 18,
     nombre: "Car Charger",
     marca: "Ecopower",
     descripcion: "Cargador para automóvil Ecopower de carga rápida de 55W con puertos USB y USB-C, compatible con teléfonos, tablets y otros dispositivos.",
@@ -187,7 +187,7 @@ const productos = [
 },
 
 {
-    id: "DM9019",
+    id: 19,
     nombre: "Car Charger",
     marca: "WAER",
     descripcion: "Cargador para automóvil WAER PD20W + QC3.0 con carga rápida, puerto USB y USB-C, ideal para mantener tus dispositivos siempre cargados.",

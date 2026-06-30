@@ -465,6 +465,69 @@ button:hover{
     background:#20ba5a;
     box-shadow:0 15px 35px rgba(37,211,102,.45);
 }
+
+/*=========================
+    BUSCADOR
+=========================*/
+
+.barra-catalogo{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    margin-bottom:45px;
+}
+
+#buscador{
+    width:650px;
+    max-width:90%;
+    padding:16px 22px;
+    border:none;
+    border-radius:50px;
+    background:#1b1b1b;
+    color:white;
+    font-size:18px;
+    outline:none;
+    border:2px solid #00bfff;
+    transition:.3s;
+}
+
+#buscador:focus{
+    box-shadow:0 0 20px rgba(0,191,255,.45);
+}
+
+#buscador::placeholder{
+    color:#a9a9a9;
+}
+
+.categorias{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+}
+
+.categoria{
+    padding:12px 26px;
+    border:none;
+    border-radius:30px;
+    background:#00bfff;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.categoria:hover{
+    transform:translateY(-3px);
+    background:#0099d6;
+}
+
+.categoria.activa{
+    background:#00bfff;
+}
+
 /*=========================
       RESPONSIVE
 =========================*/
@@ -573,64 +636,5 @@ button:hover{
     BARRA DEL CATÁLOGO
 =========================*/
 
-.barra-catalogo{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:20px;
-    margin-bottom:45px;
-}
 
-#buscador{
-    width:650px;
-    max-width:90%;
-    padding:16px 22px;
-    border:none;
-    border-radius:50px;
-    background:#1b1b1b;
-    color:white;
-    font-size:18px;
-    outline:none;
-    border:2px solid #00bfff;
-    transition:.3s;
-}
-#buscador:focus{
-    box-shadow:0 0 20px rgba(0,191,255,.45);
-}
-
-#buscador::placeholder{
-
-    color:#a9a9a9;
-
-}
-
-.categorias{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:12px;
-}
-
-.categoria{
-    padding:12px 26px;
-    border:none;
-    border-radius:30px;
-    background:#00bfff;
-    color:white;
-    cursor:pointer;
-    font-size:16px;
-    font-weight:bold;
-    transition:.3s;
-}
-
-.categoria:hover{
-    transform:translateY(-3px);
-    background:#0099d6;
-}
-
-.categoria.activa{
-
-    background:#00bfff;
-
-}
 }

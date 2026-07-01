@@ -67,3 +67,21 @@ buscador.addEventListener("input", () => {
 });
 
 mostrarProductos(productos);
+
+botonesCategorias.forEach(boton => {
+
+    boton.addEventListener("click", () => {
+
+        console.log(boton.dataset.categoria);
+
+        botonesCategorias.forEach(b => b.classList.remove("activa"));
+
+        boton.classList.add("activa");
+
+        categoriaSeleccionada = boton.dataset.categoria;
+
+        filtrarProductos();
+
+    });
+
+});

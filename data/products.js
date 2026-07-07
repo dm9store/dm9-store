@@ -323,5 +323,48 @@ const productos = [
     moneda: "Gs",
     imagen: "images/products/microfono-inalambrico-hengda.jpeg",
     descripcion: "Micrófono inalámbrico HENGDA YQ10556 compatible con celulares y otros dispositivos. Ideal para grabaciones, entrevistas, transmisiones en vivo, TikTok y creación de contenido."
-}
+},
+{
+    id: 36,
+    nombre: "Auricular Inalámbrico YQ10569",
+    marca: "Hengda",
+    categoria: "Audio",
+    precio: 60000,
+    moneda: "Gs",
+    imagen: "images/products/auricular-hengda-yq10569.jpeg",
+    descripcion: "Auricular inalámbrico Hengda YQ10569 con conexión Bluetooth, micrófono incorporado, sonido estéreo Hi-Res y diseño ligero para mayor comodidad. Ideal para música, llamadas y uso diario."
+},
+
+{
+    id: 37,
+    nombre: "Auricular Inalámbrico YQ10562",
+    marca: "Hengda",
+    categoria: "Audio",
+    precio: 65000,
+    moneda: "Gs",
+    imagen: "images/products/auricular-hengda-yq10562.jpeg",
+    descripcion: "Auricular inalámbrico Hengda YQ10562 con Bluetooth, entrada para tarjeta TF, reproducción MP3, micrófono con reducción de ruido y batería recargable. Perfecto para disfrutar música sin cables."
+},
+
+{
+    id: 38,
+    nombre: "Aro de Luz LU-330",
+    marca: "LUO",
+    categoria: "Iluminacion",
+    precio: 100000,
+    moneda: "Gs",
+    imagen: "images/products/aro-de-luz-lu330.jpeg",
+    descripcion: "Aro de luz LED LUO LU-330 con diferentes niveles de brillo y temperatura de color. Ideal para transmisiones en vivo, maquillaje, fotografía, videollamadas y creación de contenido."
+},
+
+{
+    id: 39,
+    nombre: "Zapatilla Eléctrica EP-310",
+    marca: "Ecopower",
+    categoria: "Computacion",
+    precio: 45000,
+    moneda: "Gs",
+    imagen: "images/products/zapatilla-ecopower-ep310.jpeg",
+    descripcion: "Zapatilla eléctrica Ecopower EP-310 con 6 tomas de corriente, cable de 2 metros e interruptor de encendido y apagado. Ideal para computadoras, televisores, cargadores y equipos electrónicos."
+},
 ];

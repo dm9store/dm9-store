@@ -367,4 +367,47 @@ const productos = [
     imagen: "images/products/zapatilla-ecopower-ep310.jpeg",
     descripcion: "Zapatilla eléctrica Ecopower EP-310 con 6 tomas de corriente, cable de 2 metros e interruptor de encendido y apagado. Ideal para computadoras, televisores, cargadores y equipos electrónicos."
 },
+{
+    id: 40,
+    nombre: "Intercomunicador para Moto K08",
+    marca: "Helmet",
+    categoria: "Accesorios",
+    precio: 100000,
+    moneda: "Gs",
+    imagen: "images/products/intercomunicador-moto-helmet-k08.jpeg",
+    descripcion: "Intercomunicador inalámbrico para casco de motocicleta con tecnología Bluetooth, micrófono integrado, reducción de ruido y batería de larga duración. Permite escuchar música, recibir llamadas y utilizar el GPS mientras conduces."
+},
+
+{
+    id: 41,
+    nombre: "Pendrive USB 3.0 Type-C 32GB",
+    marca: "WAER",
+    categoria: "Computación",
+    precio: 60000,
+    moneda: "Gs",
+    imagen: "images/products/pendrive-waer-32gb.jpeg",
+    descripcion: "Pendrive WAER de 32 GB con doble conexión USB 3.0 y Type-C. Ideal para transferir archivos entre computadoras, notebooks, tablets y teléfonos compatibles con OTG de forma rápida y segura."
+},
+
+{
+    id: 42,
+    nombre: "Mini Linterna Multifunción EP-8112",
+    marca: "Ecopower",
+    categoria: "Iluminación",
+    precio: 40000,
+    moneda: "Gs",
+    imagen: "images/products/mini-linterna-ecopower-ep8112.jpeg",
+    descripcion: "Mini linterna LED recargable Ecopower de 300 lúmenes con carga USB Tipo-C, varios modos de iluminación, soporte plegable y llavero integrado. Ideal para emergencias, camping y uso diario."
+},
+
+{
+    id: 43,
+    nombre: "Control Universal para Aire Acondicionado K-1028E",
+    marca: "Sunlight",
+    categoria: "Hogar",
+    precio: 50000,
+    moneda: "Gs",
+    imagen: "images/products/control-universal-aire-sunlight-k1028e.jpeg",
+    descripcion: "Control remoto universal compatible con más de 1000 modelos de aire acondicionado. Cuenta con pantalla LCD, temporizador, reloj y funciones completas para una configuración rápida y sencilla."
+},
 ];

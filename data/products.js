@@ -453,4 +453,14 @@ const productos = [
     imagen: "images/products/tomapresion-ecopower-ep2740.jpeg",
     descripcion: "Tomapresión digital Ecopower EP-2740 con pantalla LCD de fácil lectura, medición automática de presión arterial y pulso, memoria de registros y detección de latidos irregulares. Ideal para el monitoreo diario de la salud."
 },
+{
+    id: 48,
+    nombre: "Neceser de Cuerina",
+    marca: "Nacional",
+    categoria: "Accesorios",
+    precio: 50000,
+    moneda: "Gs",
+    imagen: "images/products/neceser-de-cuerina.jpeg",
+    descripcion: "Neceser de cuerina con diseño elegante, cierre reforzado y práctico compartimento principal. Ideal para guardar artículos de higiene personal, cosméticos, accesorios o pequeños objetos de viaje. Fabricado con material resistente y fácil de limpiar, perfecto para el uso diario."
+},
 ];

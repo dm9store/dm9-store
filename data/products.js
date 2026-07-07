@@ -410,4 +410,47 @@ const productos = [
     imagen: "images/products/control-universal-aire-sunlight-k1028e.jpeg",
     descripcion: "Control remoto universal compatible con más de 1000 modelos de aire acondicionado. Cuenta con pantalla LCD, temporizador, reloj y funciones completas para una configuración rápida y sencilla."
 },
+{
+    id: 44,
+    nombre: "Horno para Uñas LED/UV 48W",
+    marca: "China",
+    categoria: "Accesorios",
+    precio: 95000,
+    moneda: "Gs",
+    imagen: "images/products/horno-para-unas-48w.jpeg",
+    descripcion: "Lámpara LED/UV de 48W para secado rápido de esmaltes semipermanentes y gel. Cuenta con temporizador, pantalla digital y sensor automático de encendido. Ideal para uso profesional y doméstico."
+},
+
+{
+    id: 45,
+    nombre: "Calculadora Científica FX-82ES Plus",
+    marca: "Casio",
+    categoria: "Computacion",
+    precio: 100000,
+    moneda: "Gs",
+    imagen: "images/products/calculadora-casio-fx82es-plus.jpeg",
+    descripcion: "Calculadora científica Casio FX-82ES Plus de 2ª edición con 252 funciones. Pantalla Natural Textbook Display, ideal para estudiantes de secundaria, universidad e ingeniería."
+},
+
+{
+    id: 46,
+    nombre: "Batidora Eléctrica USB",
+    marca: "China",
+    categoria: "Hogar",
+    precio: 50000,
+    moneda: "Gs",
+    imagen: "images/products/batidora-electrica-usb.jpeg",
+    descripcion: "Batidora eléctrica recargable por USB para preparar café, capuchino, chocolate caliente, leche espumada y otras bebidas. Diseño compacto, liviano y fácil de limpiar."
+},
+
+{
+    id: 47,
+    nombre: "Tomapresión Electrónico EP-2740",
+    marca: "Ecopower",
+    categoria: "Hogar",
+    precio: 100000,
+    moneda: "Gs",
+    imagen: "images/products/tomapresion-ecopower-ep2740.jpeg",
+    descripcion: "Tomapresión digital Ecopower EP-2740 con pantalla LCD de fácil lectura, medición automática de presión arterial y pulso, memoria de registros y detección de latidos irregulares. Ideal para el monitoreo diario de la salud."
+},
 ];

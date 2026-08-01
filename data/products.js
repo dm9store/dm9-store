@@ -495,4 +495,25 @@ const productos = [
     imagen: "images/products/pistola-masajeadora-luo-lu4983.jpeg",
     descripcion: "Mini pistola masajeadora inalámbrica LUO ideal para relajar músculos, aliviar la fatiga y acelerar la recuperación después del ejercicio. Compacta, potente y fácil de transportar."
 },
+{
+    id: 52,
+    nombre: "Balanza Bluetooth",
+    marca: "LU STAR",
+    categoria: "Hogar",
+    precio: 60000,
+    moneda: "Gs",
+    imagen: "images/products/balanza-bluetooth-lu-star.jpeg",
+    descripcion: "Balanza digital inteligente con conexión Bluetooth para sincronizar tus mediciones con el teléfono. Cuenta con pantalla LCD de alta visibilidad, diseño ultradelgado y medición precisa del peso corporal."
+},
+
+{
+    id: 53,
+    nombre: "Antena Digital",
+    marca: "SATE",
+    categoria: "Hogar",
+    precio: 50000,
+    moneda: "Gs",
+    imagen: "images/products/antena-digital-sate-ant76.jpeg",
+    descripcion: "Antena digital interna SATE A-NT76 para recepción de señal de TV abierta. Su diseño compacto permite una instalación sencilla y una excelente recepción de canales digitales."
+},
 ];

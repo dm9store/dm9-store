@@ -463,4 +463,33 @@ const productos = [
     imagen: "images/products/neceser-de-cuerina.jpeg",
     descripcion: "Neceser de cuerina con diseño elegante, cierre reforzado y práctico compartimento principal. Ideal para guardar artículos de higiene personal, cosméticos, accesorios o pequeños objetos de viaje. Fabricado con material resistente y fácil de limpiar, perfecto para el uso diario."
 },
+{
+    id: 49,
+    nombre: "Tomapresión Ecopower EP-2746",
+    marca: "Ecopower",
+    categoria: "Hogar",
+    precio: 120000,
+    imagen: "images/products/tomapresion-ecopower-ep2746.jpg",
+    descripcion: "Monitor electrónico de presión arterial de brazo Ecopower EP-2746. Pantalla digital de fácil lectura, medición automática, memoria para múltiples registros y alta precisión para el control diario de la presión arterial."
+},
+
+{
+    id: 50,
+    nombre: "Masajeador de Cuello y Espalda Alta",
+    marca: "LUO",
+    categoria: "Hogar",
+    precio: 150000,
+    imagen: "images/products/masajeador-cuello-luo-lu4987.jpg",
+    descripcion: "Masajeador eléctrico LUO diseñado para cuello, hombros, espalda, cintura y piernas. Cuenta con varios niveles de intensidad para aliviar la tensión muscular y brindar una experiencia relajante en cualquier momento."
+},
+
+{
+    id: 51,
+    nombre: "Pistola Masajeadora",
+    marca: "LUO",
+    categoria: "Hogar",
+    precio: 80000,
+    imagen: "images/products/pistola-masajeadora-luo-lu4983.jpg",
+    descripcion: "Mini pistola masajeadora inalámbrica LUO ideal para relajar músculos, aliviar la fatiga y acelerar la recuperación después del ejercicio. Compacta, potente y fácil de transportar."
+},
 ];

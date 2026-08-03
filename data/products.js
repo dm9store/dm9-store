@@ -547,5 +547,25 @@ const productos = [
     moneda: "Gs",
     imagen: "images/products/tripode-con-luz-y-microfono-va.jpeg",
     descripcion: "Kit completo para creación de contenido que incluye trípode, aro de luz LED, micrófono, soporte para celular y control remoto. Ideal para TikTok, Instagram, YouTube, streaming y videollamadas."
-}
+},
+{
+  id: 59,
+  nombre: "Consola Retro",
+  marca: "KEEN",
+  categoria: "Entretenimiento",
+  precio: 250000,
+  moneda: "Gs.",
+  imagen: "images/products/consola-retro-keen.jpeg",
+  descripcion: "Consola retro inalámbrica KEEN con salida HDMI. Incluye controles inalámbricos de 2.4 GHz y una amplia colección de juegos clásicos para disfrutar en familia o con amigos. Fácil de instalar y compatible con televisores modernos."
+},
+{
+  id: 60,
+  nombre: "Audífonos Gamer",
+  marca: "Lecoo",
+  categoria: "Audio",
+  precio: 100000,
+  moneda: "Gs.",
+  imagen: "images/products/audifonos-gamer-lecoo.jpeg",
+  descripcion: "Audífonos gamer Lecoo HT410 con micrófono incorporado y diseño ergonómico. Ofrecen sonido envolvente, excelente comodidad para largas sesiones de juego y un atractivo diseño con iluminación RGB."
+},
 ];

@@ -516,4 +516,36 @@ const productos = [
     imagen: "images/products/antena-digital-sate-ant76.jpeg",
     descripcion: "Antena digital interna SATE A-NT76 para recepción de señal de TV abierta. Su diseño compacto permite una instalación sencilla y una excelente recepción de canales digitales."
 },
+{
+    id: 56,
+    nombre: "Teclado con Cable",
+    marca: "Ecopower",
+    categoria: "Computación",
+    precio: 80000,
+    moneda: "Gs",
+    imagen: "images/products/teclado-con-cable-ecopower.jpeg",
+    descripcion: "Teclado de membrana con cable USB, distribución completa con teclado numérico. Ideal para oficina, estudio y uso diario. Teclas cómodas, resistentes y de larga duración."
+},
+
+{
+    id: 57,
+    nombre: "Expansor de WiFi",
+    marca: "Xiaomi",
+    categoria: "Accesorios",
+    precio: 120000,
+    moneda: "Gs",
+    imagen: "images/products/expansor-wifi-xiaomi.jpeg",
+    descripcion: "Repetidor WiFi Xiaomi que amplía la cobertura de tu red inalámbrica. Mejora la señal en habitaciones alejadas del router y ofrece una conexión estable para todos tus dispositivos."
+},
+
+{
+    id: 58,
+    nombre: "Trípode con Luz y Micrófono",
+    marca: "V.A.",
+    categoria: "Iluminación",
+    precio: 150000,
+    moneda: "Gs",
+    imagen: "images/products/tripode-con-luz-y-microfono-va.jpeg",
+    descripcion: "Kit completo para creación de contenido que incluye trípode, aro de luz LED, micrófono, soporte para celular y control remoto. Ideal para TikTok, Instagram, YouTube, streaming y videollamadas."
+}
 ];
